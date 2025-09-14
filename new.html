@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reading Notebook</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-50">
+    <div class="flex min-h-screen">
+        <!-- Left Navigator -->
+        <div class="w-80 bg-white shadow-lg fixed h-full overflow-y-auto">
+            <div class="p-6">
+                <!-- Book Title -->
+                <div class="mb-8">
+                    <h1 class="text-2xl font-bold text-gray-800">Networking</h1>
+                    <p class="text-gray-600 text-sm mt-1">Content</p>
+                </div>
+
+                <!-- Chapter Navigation -->
+                <nav class="space-y-1">
+                    <!-- Chapter 1 -->
+                    <div class="mb-4">
+                        <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-2">IP ADDRESS FUNDAMENTALS</h3>
+                        
+                        <!-- Section 1.1 -->
+                        <div class="ml-2 mb-3">
+                            <h4 class="section-link active text-sm font-medium text-gray-700 px-2 py-1 rounded cursor-pointer hover:bg-blue-50">Introduction to IP Addressing</h4>
+                            <div class="ml-4 mt-1 space-y-1">
+                                <a href="#article-1-1-1" class="article-link active block px-2 py-1 text-xs text-gray-600 hover:bg-green-50 rounded transition-colors">IP Addressing 1.1 - What is an IP Address?</a>
+                                <a href="#article-1-1-2" class="article-link block px-2 py-1 text-xs text-gray-600 hover:bg-green-50 rounded transition-colors">IP Addressing 1.2 - Structure and Representation of IP Addresses</a>
+                                <a href="#article-1-1-3" class="article-link block px-2 py-1 text-xs text-gray-600 hover:bg-green-50 rounded transition-colors">IP Addressing 1.3 - Role of IP Addressing in Networks</a>
+                                <a href="#article-1-1-4" class="article-link block px-2 py-1 text-xs text-gray-600 hover:bg-green-50 rounded transition-colors">IP Addressing 1.4 -Introduction to the TCP/IP Model</a>
+                                <a href="#article-1-1-5" class="article-link block px-2 py-1 text-xs text-gray-600 hover:bg-green-50 rounded transition-colors">IP Addressing 1.5 - Understanding the OSI Model</a>
+                                <a href="#article-1-1-6" class="article-link block px-2 py-1 text-xs text-gray-600 hover:bg-green-50 rounded transition-colors">IP Addressing 1.6 - How Packets are Transferred Across Netwroks</a>
+                            </div>
+                        </div>
+
+                        <!-- Section 1.2 -->
+                        <div class="ml-2 mb-3">
+                            <h4 class="section-link text-sm font-medium text-gray-700 px-2 py-1 rounded cursor-pointer hover:bg-blue-50">Types of IP Addresses</h4>
+                            <div class="ml-4 mt-1 space-y-1">
+                                <a href="#article-1-2-1" class="article-link block px-2 py-1 text-xs text-gray-600 hover:bg-green-50 rounded transition-colors">Understanding IPv4 and IPv6</a>
+                                <a href="#article-1-2-2" class="article-link block px-2 py-1 text-xs text-gray-600 hover:bg-green-50 rounded transition-colors">What is Public and Private IP address</a>
+                                <a href="#article-1-2-2" class="article-link block px-2 py-1 text-xs text-gray-600 hover:bg-green-50 rounded transition-colors">Difference betwen Dynamic and Static IP Addresses</a>
+                                <a href="#article-1-2-2" class="article-link block px-2 py-1 text-xs text-gray-600 hover:bg-green-50 rounded transition-colors">Classes of IPv4 Addresses (A, B, C, D, E)</a>
+                                <a href="#article-1-2-2" class="article-link block px-2 py-1 text-xs text-gray-600 hover:bg-green-50 rounded transition-colors">Stateless and Stateful Address</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Chapter 2 -->
+                    <div class="mb-4">
+                        <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-2">ADVANCED IP ADDRESSING TECHNIQUES</h3>
+                        
+                        <!-- Section 2.1 -->
+                        <div class="ml-2 mb-3">
+                            <h4 class="section-link text-sm font-medium text-gray-700 px-2 py-1 rounded cursor-pointer hover:bg-blue-50">Subnetting?</h4>
+                            <div class="ml-4 mt-1 space-y-1">
+                                <a href="#article-2-1-1" class="article-link block px-2 py-1 text-xs text-gray-600 hover:bg-green-50 rounded transition-colors">What is Subnetting?</a>
+                                <a href="#article-2-1-2" class="article-link block px-2 py-1 text-xs text-gray-600 hover:bg-green-50 rounded transition-colors">Why Subnet?</a>
+                                <a href="#article-2-1-3" class="article-link block px-2 py-1 text-xs text-gray-600 hover:bg-green-50 rounded transition-colors">Understanding Subnet Masks</a>
+                                <a href="#article-2-1-4" class="article-link block px-2 py-1 text-xs text-gray-600 hover:bg-green-50 rounded transition-colors">Basic Subnetting Technique and Examples</a>
+                                <a href="#article-2-1-5" class="article-link block px-2 py-1 text-xs text-gray-600 hover:bg-green-50 rounded transition-colors">Calculating Subnets</a>
+                                <a href="#article-2-1-6" class="article-link block px-2 py-1 text-xs text-gray-600 hover:bg-green-50 rounded transition-colors">Binary Math for Subnetting</a>
+                                <a href="#article-2-1-7" class="article-link block px-2 py-1 text-xs text-gray-600 hover:bg-green-50 rounded transition-colors">Advanced Subnet Calculations</a>
+                                <a href="#article-2-1-8" class="article-link block px-2 py-1 text-xs text-gray-600 hover:bg-green-50 rounded transition-colors">Fixed-Length Subnet Masking (FLSM)</a>
+                                <a href="#article-2-1-9" class="article-link block px-2 py-1 text-xs text-gray-600 hover:bg-green-50 rounded transition-colors">Variable Length Subnet Mask (VLSM)</a>
+                                <a href="#article-2-1-10" class="article-link block px-2 py-1 text-xs text-gray-600 hover:bg-green-50 rounded transition-colors">Subnetting IPv6</a>
+                            </div>
+                        </div>
+
+                        <!-- Section 2.2 -->
+                        <div class="ml-2 mb-3">
+                            <h4 class="section-link text-sm font-medium text-gray-700 px-2 py-1 rounded cursor-pointer hover:bg-blue-50">IP Allocation Techniques</h4>
+                            <div class="ml-4 mt-1 space-y-1">
+                                <a href="#article-2-2-1" class="article-link block px-2 py-1 text-xs text-gray-600 hover:bg-green-50 rounded transition-colors">DHCP: Dynamic Host Configuration Protocol</a>
+                                <a href="#article-2-2-2" class="article-link block px-2 py-1 text-xs text-gray-600 hover:bg-green-50 rounded transition-colors">Manual IP Allocation (Static)</a>
+                                <a href="#article-2-2-3" class="article-link block px-2 py-1 text-xs text-gray-600 hover:bg-green-50 rounded transition-colors">Automating IP Management</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Chapter 3 -->
+                    <div class="mb-4">
+                        <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-2">IP ROUTING AND NETWORK ADDRESS TRANSLATION</h3>
+                        
+                        <!-- Section 3.1 -->
+                        <div class="ml-2 mb-3">
+                            <h4 class="section-link text-sm font-medium text-gray-700 px-2 py-1 rounded cursor-pointer hover:bg-blue-50">IP Routing Basics</h4>
+                            <div class="ml-4 mt-1 space-y-1">
+                                <a href="#article-3-1-1" class="article-link block px-2 py-1 text-xs text-gray-600 hover:bg-green-50 rounded transition-colors">Understanding IP Routing</a>
+                                <a href="#article-3-1-2" class="article-link block px-2 py-1 text-xs text-gray-600 hover:bg-green-50 rounded transition-colors">Static vs. Dynamic Routing</a>
+                                <a href="#article-3-1-3" class="article-link block px-2 py-1 text-xs text-gray-600 hover:bg-green-50 rounded transition-colors">Routing Protocols Overview</a>
+                                <a href="#article-3-1-4" class="article-link block px-2 py-1 text-xs text-gray-600 hover:bg-green-50 rounded transition-colors">Routing Metrics and Path Selection</a>
+                                <a href="#article-3-1-5" class="article-link block px-2 py-1 text-xs text-gray-600 hover:bg-green-50 rounded transition-colors">Advanced Static Routing Techniques</a>
+                            </div>
+                        </div>
+                        <!-- Section 3.2 -->
+                        <div class="ml-2 mb-3">
+                            <h4 class="section-link text-sm font-medium text-gray-700 px-2 py-1 rounded cursor-pointer hover:bg-blue-50">Network Address Translation(NAT)</h4>
+                            <div class="ml-4 mt-1 space-y-1">
+                                <a href="#article-3-2-1" class="article-link block px-2 py-1 text-xs text-gray-600 hover:bg-green-50 rounded transition-colors">What is NAT?</a>
+                                <a href="#article-3-2-2" class="article-link block px-2 py-1 text-xs text-gray-600 hover:bg-green-50 rounded transition-colors">Types of Network Address Translation (NAT)</a>
+                                <a href="#article-3-2-3" class="article-link block px-2 py-1 text-xs text-gray-600 hover:bg-green-50 rounded transition-colors">Configuring NAT on Routers</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Chapter 4 -->
+                    <div class="mb-4">
+                        <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-2">IP TROUBLESHOOTING AND SECURITY</h3>
+                        
+                        <!-- Section 4.1 -->
+                        <div class="ml-2 mb-3">
+                            <h4 class="section-link text-sm font-medium text-gray-700 px-2 py-1 rounded cursor-pointer hover:bg-blue-50">IP Troubleshooting and Tools</h4>
+                            <div class="ml-4 mt-1 space-y-1">
+                                <a href="#article-4-1-1" class="article-link block px-2 py-1 text-xs text-gray-600 hover:bg-green-50 rounded transition-colors">Common IP Configuration Issues</a>
+                                <a href="#article-4-1-2" class="article-link block px-2 py-1 text-xs text-gray-600 hover:bg-green-50 rounded transition-colors">Using Tools like Ping, Traceroute</a>
+                            </div>
+                        </div>
+                        <!-- Section 4.2 -->
+                        <div class="ml-2 mb-3">
+                            <h4 class="section-link text-sm font-medium text-gray-700 px-2 py-1 rounded cursor-pointer hover:bg-blue-50">IP Security</h4>
+                            <div class="ml-4 mt-1 space-y-1">
+                                <a href="#article-4-2-1" class="article-link block px-2 py-1 text-xs text-gray-600 hover:bg-green-50 rounded transition-colors">Security Concerns with IP Addressing</a>
+                                <a href="#article-4-2-2" class="article-link block px-2 py-1 text-xs text-gray-600 hover:bg-green-50 rounded transition-colors">IP Spoofing and Prevention Techniques</a>
+                                <a href="#article-4-2-3" class="article-link block px-2 py-1 text-xs text-gray-600 hover:bg-green-50 rounded transition-colors">IP Address Scanning Access Control Lists (ACLs)</a>
+                                <a href="#article-4-2-3" class="article-link block px-2 py-1 text-xs text-gray-600 hover:bg-green-50 rounded transition-colors">Firewalls and IP Address Filtering</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <!-- Main Content Area -->
+        <div class="flex-1 ml-80">
+            <div class="max-w-4xl mx-auto p-8">
+                <!-- Article 1.1.1 -->
+                <article id="article-1-1-1" class="content-article mb-16">
+                    <div class="mb-6">
+                        <span class="text-sm text-blue-600 font-medium">Chapter 1 > Section 1.1 > Article 1</span>
+                    </div>
+                    <h1 class="text-4xl font-bold text-gray-900 mb-4">Introduction Basics</h1>
+                    <h2 class="text-2xl font-semibold text-gray-800 mb-6">Understanding the Foundation</h2>
+                    
+                    <p class="text-gray-700 leading-relaxed mb-6">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </p>
+                    
+                    <h3 class="text-xl font-medium text-gray-800 mb-4">Key Learning Points</h3>
+                    <p class="text-gray-700 leading-relaxed mb-6">
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                    </p>
+                    
+                    <h3 class="text-xl font-medium text-gray-800 mb-4">Practical Applications</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt.
+                    </p>
+                </article>
+
+                <!-- Article 1.1.2 -->
+                <article id="article-1-1-2" class="content-article mb-16 hidden">
+                    <div class="mb-6">
+                        <span class="text-sm text-blue-600 font-medium">Chapter 1 > Section 1.1 > Article 2</span>
+                    </div>
+                    <h1 class="text-4xl font-bold text-gray-900 mb-4">Core Concepts</h1>
+                    <h2 class="text-2xl font-semibold text-gray-800 mb-6">Building Your Understanding</h2>
+                    
+                    <p class="text-gray-700 leading-relaxed mb-6">
+                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi.
+                    </p>
+                    
+                    <h3 class="text-xl font-medium text-gray-800 mb-4">Essential Elements</h3>
+                    <p class="text-gray-700 leading-relaxed mb-6">
+                        Id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est.
+                    </p>
+                    
+                    <p class="text-gray-700 leading-relaxed">
+                        Omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus.
+                    </p>
+                </article>
+
+                <!-- Article 1.1.3 -->
+                <article id="article-1-1-3" class="content-article mb-16 hidden">
+                    <div class="mb-6">
+                        <span class="text-sm text-blue-600 font-medium">Chapter 1 > Section 1.1 > Article 3</span>
+                    </div>
+                    <h1 class="text-4xl font-bold text-gray-900 mb-4">Key Principles</h1>
+                    <h2 class="text-2xl font-semibold text-gray-800 mb-6">Mastering the Fundamentals</h2>
+                    
+                    <p class="text-gray-700 leading-relaxed mb-6">
+                        Ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.
+                    </p>
+                    
+                    <h3 class="text-xl font-medium text-gray-800 mb-4">Implementation Strategy</h3>
+                    <p class="text-gray-700 leading-relaxed mb-6">
+                        Et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                    </p>
+                    
+                    <p class="text-gray-700 leading-relaxed">
+                        Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem.
+                    </p>
+                </article>
+
+                <!-- You can add more articles here following the same pattern -->
+
+                <!-- Next Button -->
+                <div class="flex justify-between items-center mt-12 pt-8 border-t border-gray-200">
+                    <div class="text-sm text-gray-500">
+                        <span id="currentProgress">Article 1 of 13</span>
+                    </div>
+                    <button id="nextBtn" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-medium transition-colors flex items-center">
+                        Next Article
+                        <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'97b8288c02537f8b',t:'MTc1NzI2ODU3OS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
